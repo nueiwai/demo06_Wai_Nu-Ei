@@ -1,1 +1,54 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Lightest (Main Background): #f2fbf2
+* Dark Green (Primary): #005a00
+* Light Green (Secondary): #72b372
+* Reddish-Brown (Accent): #b75858
+*/
+
+.bg-info {
+  background-color: #3e4491 !important;
+  /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #3a9efd;
+  /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+  color: #dadaf1;
+  /* Lightest shade for text on info button for contrast */
+  background-color: #3e4491;
+  /* Light green for button background */
+  border-color: #3a9efd;
+  /* Dark green for button border */
+}
+
+.btn-primary {
+  color: #dadaf1;
+  /* Lightest shade for text */
+  font-size: 150%;
+  background-color: #3a9efd;
+  /* Dark green for primary button background */
+  border-color: #3e4491;
+  /* Reddish-brown for border to use as accent */
+  border-width: thick;
+}
+
+body {
+  background-color: #dadaf1;
+  /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand {
+  font-family: 'Protest Guerrilla', cursive;
+  /*change the font name for what you have*/
+  font-size: 2.25rem;
+}
